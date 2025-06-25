@@ -5,7 +5,7 @@ import ProjectsPage from "./pages/projects/ProjectsPage";
 
 function App() {
   return (
-    <body className="bg-slate-900 leading-relaxed text-slate-400 antialised selection:bg-teal-300 selection:text-teal-900">
+    <body className="bg-p1 leading-relaxed text-p4/75 antialised selection:bg-s3 selection:text-s1">
       <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
         <BrowserRouter>
           <Routes>

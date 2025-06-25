@@ -3,10 +3,10 @@ const HomeHero = () => {
     <div>
       <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
         <div>
-          <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
+          <h1 className="text-4xl font-bold tracking-tight text-p5 sm:text-5xl">
             <a href="/">Zac Taylor-Westermann</a>
           </h1>
-          <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
+          <h2 className="mt-3 text-lg font-medium tracking-tight text-p5 sm:text-xl">
             Software Developer
           </h2>
           <p className="mt-4 max-w-xs leading-normal">
@@ -19,24 +19,24 @@ const HomeHero = () => {
                   className="group flex items-center py-3 active"
                   href="#about"
                 >
-                  <span className="mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                  <span className="text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
+                  <span className="mr-4 h-px w-8 bg-p3 transition-all group-hover:w-16 group-hover:bg-p5 group-focus-visible:w-16 group-focus-visible:bg-p5 motion-reduce:transition-none"></span>
+                  <span className="text-xs font-bold uppercase tracking-widest text-p3 group-hover:text-p5 group-focus-visible:text-p5">
                     About
                   </span>
                 </a>
               </li>
               <li>
                 <a className="group flex items-center py-3" href="#experience">
-                  <span className="mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                  <span className="text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
+                  <span className="mr-4 h-px w-8 bg-p3 transition-all group-hover:w-16 group-hover:bg-p5 group-focus-visible:w-16 group-focus-visible:bg-p5 motion-reduce:transition-none"></span>
+                  <span className="text-xs font-bold uppercase tracking-widest text-p3 group-hover:text-p5 group-focus-visible:text-p5">
                     Experience
                   </span>
                 </a>
               </li>
               <li>
                 <a className="group flex items-center py-3" href="#projects">
-                  <span className="mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                  <span className="text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
+                  <span className="mr-4 h-px w-8 bg-p3 transition-all group-hover:w-16 group-hover:bg-p5 group-focus-visible:w-16 group-focus-visible:bg-p5 motion-reduce:transition-none"></span>
+                  <span className="text-xs font-bold uppercase tracking-widest text-p3 group-hover:text-p5 group-focus-visible:text-p5">
                     Projects
                   </span>
                 </a>
@@ -50,7 +50,7 @@ const HomeHero = () => {
         >
           <li className="mr-5 shrink-0 text-xs">
             <a
-              className="block hover:text-slate-200"
+              className="block hover:text-p5"
               href="https://github.com/zactaylorwestermann"
               target="_blank"
               rel="noreferrer noopener"
@@ -71,7 +71,7 @@ const HomeHero = () => {
           </li>
           <li className="mr-5 shrink-0 text-xs">
             <a
-              className="block hover:text-slate-200"
+              className="block hover:text-p5"
               href="https://linked.com/in/zactaylorwestermann"
               target="_blank"
               rel="noreferrer noopener"

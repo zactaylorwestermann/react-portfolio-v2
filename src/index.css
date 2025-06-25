@@ -1,1 +1,55 @@
 @import "tailwindcss";
+
+@theme {
+  --color-p1: #171c47;
+  --color-p2: #5465ff;
+  --color-p3: #788bff;
+  --color-p4: #9bb1ff;
+  --color-p5: #bfd7ff;
+  --color-s1: #5ef3ff;
+  --color-s2: #82f6ff;
+  --color-s3: #e2fdff;
+}
+
+/*
+slate-200: #e2e8f0;
+slate-400: #90a1b9;
+slate-500: #62748e;
+slate-600: #45556c;
+slate-800: #1d293d;
+slate-900: #0f172b;
+
+teal-300: #46ecd5;
+teal-400: #00d5be;
+teal-900: #0b4f4a;
+*/
+
+/* 
+ORIGINAL THEME
+@theme {
+  --color-mainbg: #0f172b;
+  --color-maintext: #90a1b9;
+  --color-mainbgselect: #46ecd5;
+  --color-maintextselect: #0b4f4a;
+
+  --color-headingtext: #e2e8f0;
+  --color-headingtexthover: #46ecd5;
+  --color-subheadingtext: #e2e8f0;
+  --color-footertext: #62748e;
+
+  --color-navtext: #62748e;
+  --color-navtexth: #e2e8f0;
+  --color-navelement: #45556c;
+  --color-navelementh: #e2e8f0;
+  --color-iconh: #e2e8f0;
+
+  --color-mbsectionhead: #0f172b;
+
+  --color-sectionhover: #1d293d;
+  --color-experiencedate: #62748e;
+  --color-imgborder: #e2e8f0;
+
+  --color-tagbg: #00d5be;
+  --color-tagtext: #46ecd5;
+}
+*/

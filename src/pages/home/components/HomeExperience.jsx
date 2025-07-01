@@ -15,28 +15,46 @@ const HomeExperience = () => {
       <div>
         <ol className="group/list">
           <ExperienceCard
-            date="July - Dec 2023"
-            role="Innovation Consultant - Company"
-            desc="Job description and responsibilities"
-            technologies={["Excel", "JavaScript"]}
+            date="Aug - Nov 2023"
+            role="Innovation Partner - UTS"
+            desc="Mapped existing UTS administration systems architecture, designed updated architecture and functionality, and conducted end-user testing of new design."
+            technologies={["Figma", "JavaScript", "UX/UI"]}
           />
           <ExperienceCard
-            date="July - Dec 2023"
-            role="Innovation Consultant - Company"
-            desc="Job description and responsibilities"
-            technologies={["Excel", "JavaScript"]}
+            date="Mar - Jun 2023"
+            role="Innovation Consultant - UNICEF Global"
+            desc="Designed structural methods and an interactive visualisation to promote the discoverability of new knowledge."
+            technologies={["Excel", "Data Mapping"]}
           />
           <ExperienceCard
-            date="July - Dec 2023"
-            role="Innovation Consultant - Company"
-            desc="Job description and responsibilities"
-            technologies={["Excel", "JavaScript"]}
+            date="Mar - Jun 2023"
+            role="Innovation Consultant - Services NSW"
+            desc=""
+            technologies={["Excel", "Microsoft Suite"]}
+          />
+          <ExperienceCard
+            date="Jan - Feb 2023"
+            role="Account Management Intern - EarlyTrade"
+            desc="Managed the integrity of 600+ customer accounts, conducted resaerch into potential account holders and validated organisational information and contact points."
+            technologies={["Excel"]}
+          />
+          <ExperienceCard
+            date="Jul - Oct 2022"
+            role="IT Industry Partner - Revenue NSW"
+            desc="Mapped customer data flows through Revenue NSW systems and redesigned the customer data model across Revenue NSW services."
+            technologies={["Python", "Data Mapping"]}
+          />
+          <ExperienceCard
+            date="2018"
+            role="HSC Work Experience - Fairfax Media"
+            desc="Designed graphics for web and print, visualised key data and statistics."
+            technologies={["Python", "JavaScript", "Adobe Suite"]}
           />
         </ol>
         <div className="mt-12">
           <a
             className="inline-flex items-baseline font-medium leading-tight text-p5/75 hover:text-s3 focus-visible:text-s3 group/link text-base"
-            href="/resume.pdf"
+            href="/src/resume.pdf"
             target="_blank"
             rel="noreferrer noopener"
             aria-label="view full résumé (opens in new tab)"

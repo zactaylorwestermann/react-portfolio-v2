@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
+.active .nav-element {
+  background-color: white;
+  width: 4rem;
+}
+
+.active .nav-text {
+  color: white;
+}
+
 @theme {
   --color-p1: #171c47;
   --color-p2: #5465ff;

@@ -17,28 +17,43 @@ const HomeProjects = () => {
           <ProjectCard
             name="Interactive Website"
             link="https://enter-dystopia.netlify.app/"
-            desc="Description"
+            desc="A responsive and interactive website showcasing the use of front-end design elements and animations. Built using React."
             tags={["React", "JavaScript"]}
-            img="/assets/dystop1a.JPG"
+            img="/src/assets/dystop1a.JPG"
+          />
+          <ProjectCard
+            name="Spotify Clone"
+            link="https://musicstreaming-ndsv.onrender.com/"
+            desc="A web app with a functional music player system. Users can view playlists, add new songs, message, play music, pause music and skip to the next or previous track. Built using React, TypeScript and Node js."
+            tags={["React", "TypeScript", "Node.js", "Express", "MongoDB"]}
+            img="/src/assets/musicstreamingsite.JPG"
+          />
+          <ProjectCard
+            name="Social Media Clone"
+            link="https://nextjs-socialmedia-prototype.vercel.app/"
+            desc="Working social media web application allowing for posting text/images and interacting with other users. Includes sign-up and authentication systems and uses PostgreSQL to store data."
+            tags={[
+              "React",
+              "TypeScript",
+              "Next.js",
+              "Clerk",
+              "PostgreSQL",
+              "Neon",
+              "Prisma",
+            ]}
+            img="/src/assets/socialmediasite.JPG"
           />
           <ProjectCard
             name="Interactive Website"
             link="https://enter-dystopia.netlify.app/"
-            desc="Description"
+            desc="A responsive and interactive website showcasing the use of front-end design elements and animations. Built using React."
             tags={["React", "JavaScript"]}
-            img="/assets/dystop1a.JPG"
-          />
-          <ProjectCard
-            name="Interactive Website"
-            link="https://enter-dystopia.netlify.app/"
-            desc="Description"
-            tags={["React", "JavaScript"]}
-            img="/assets/dystop1a.JPG"
+            img="/src/assets/dystop1a.JPG"
           />
         </ul>
         <div className="mt-12">
           <a
-            className="inline-flex items-baseline font-medium leading-tight text-p5/75 hover:text-s3 focus-visible:text-s3 group/link text-base"
+            className="inline-flex items-center font-medium leading-tight text-p5/75 hover:text-s3 focus-visible:text-s3 group text-base"
             href="/projects"
             aria-label="view all projects (opens in new tab)"
           >
@@ -48,12 +63,12 @@ const HomeProjects = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                class="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none"
                 aria-hidden="true"
               >
                 <path
                   fill-rule="evenodd"
-                  d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                  d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
                   clip-rule="evenodd"
                 ></path>
               </svg>

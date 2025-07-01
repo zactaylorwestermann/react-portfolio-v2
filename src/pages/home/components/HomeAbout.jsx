@@ -1,3 +1,5 @@
+import { Element } from "react-scroll";
+
 const HomeAbout = () => {
   return (
     <section
@@ -12,12 +14,27 @@ const HomeAbout = () => {
       </div>
       <div>
         <p className="mb-4">
-          Some stuff about me blah blah blah blah blah blah blah blah blah blah
-          blah blah
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+          asperiores sunt porro reprehenderit. Eius aperiam sed expedita
+          delectus debitis? Architecto, excepturi voluptate expedita cupiditate
+          amet ad? Ea dolore deleniti adipisci.
+        </p>
+        <p className="mb-4">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
+          doloremque odio ut. Ipsam perspiciatis tenetur dicta officia quod
+          debitis sequi fugit consequuntur, numquam minus deserunt, voluptatum
+          nesciunt optio nemo aspernatur?
+        </p>
+        <p className="mb-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quae,
+          id libero sit eos quos nobis suscipit deserunt nostrum et qui cumque
+          harum neque hic quibusdam dolor, quas beatae aliquam!
         </p>
         <p>
-          More stuff about me blah blah blah blah blah blah blah blah blah blah
-          blah blah
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsa
+          veniam assumenda voluptatem! Quaerat doloremque, provident omnis
+          voluptates porro, quas vel consequuntur iusto assumenda vitae ipsam
+          quo? Velit, totam quas.
         </p>
       </div>
     </section>

@@ -1,3 +1,29 @@
+const sections = document.querySelectorAll("section[id]");
+
+window.addEventListener("scroll", navHighlighter);
+
+function navHighlighter() {
+  let scrollY = window.pageYOffset;
+
+  sections.forEach((current) => {
+    const sectionHeight = current.offsetHeight;
+
+    const sectionTop =
+      current.getBoundingClientRect().top + window.pageYOffset - 150;
+    let sectionId = current.getAttribute("id");
+
+    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+      document
+        .querySelector(".nav a[href*=" + sectionId + "]")
+        .classList.add("active");
+    } else {
+      document
+        .querySelector(".nav a[href*=" + sectionId + "]")
+        .classList.remove("active");
+    }
+  });
+}
+
 const HomeHero = () => {
   return (
     <div>
@@ -12,31 +38,31 @@ const HomeHero = () => {
           <p className="mt-4 max-w-xs leading-normal">
             I build cool things for the web
           </p>
-          <nav className="hidden lg:block" aria-label="navigation links">
+          <nav className="nav hidden lg:block" aria-label="navigation links">
             <ul className="mt-16 w-max">
               <li>
                 <a
                   className="group flex items-center py-3 active"
                   href="#about"
                 >
-                  <span className="mr-4 h-px w-8 bg-p3 transition-all group-hover:w-16 group-hover:bg-p5 group-focus-visible:w-16 group-focus-visible:bg-p5 motion-reduce:transition-none"></span>
-                  <span className="text-xs font-bold uppercase tracking-widest text-p3 group-hover:text-p5 group-focus-visible:text-p5">
+                  <span className="nav-element mr-4 h-px w-8 bg-p3 transition-all group-hover:w-16 group-hover:bg-p5 group-focus-visible:w-16 group-focus-visible:bg-p5 motion-reduce:transition-none"></span>
+                  <span className="nav-text text-xs font-bold uppercase tracking-widest text-p3 group-hover:text-p5 group-focus-visible:text-p5">
                     About
                   </span>
                 </a>
               </li>
               <li>
                 <a className="group flex items-center py-3" href="#experience">
-                  <span className="mr-4 h-px w-8 bg-p3 transition-all group-hover:w-16 group-hover:bg-p5 group-focus-visible:w-16 group-focus-visible:bg-p5 motion-reduce:transition-none"></span>
-                  <span className="text-xs font-bold uppercase tracking-widest text-p3 group-hover:text-p5 group-focus-visible:text-p5">
+                  <span className="nav-element mr-4 h-px w-8 bg-p3 transition-all group-hover:w-16 group-hover:bg-p5 group-focus-visible:w-16 group-focus-visible:bg-p5 motion-reduce:transition-none"></span>
+                  <span className="nav-text text-xs font-bold uppercase tracking-widest text-p3 group-hover:text-p5 group-focus-visible:text-p5">
                     Experience
                   </span>
                 </a>
               </li>
               <li>
                 <a className="group flex items-center py-3" href="#projects">
-                  <span className="mr-4 h-px w-8 bg-p3 transition-all group-hover:w-16 group-hover:bg-p5 group-focus-visible:w-16 group-focus-visible:bg-p5 motion-reduce:transition-none"></span>
-                  <span className="text-xs font-bold uppercase tracking-widest text-p3 group-hover:text-p5 group-focus-visible:text-p5">
+                  <span className="nav-element mr-4 h-px w-8 bg-p3 transition-all group-hover:w-16 group-hover:bg-p5 group-focus-visible:w-16 group-focus-visible:bg-p5 motion-reduce:transition-none"></span>
+                  <span className="nav-text text-xs font-bold uppercase tracking-widest text-p3 group-hover:text-p5 group-focus-visible:text-p5">
                     Projects
                   </span>
                 </a>

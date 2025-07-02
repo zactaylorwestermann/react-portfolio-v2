@@ -19,7 +19,7 @@ const HomeProjects = () => {
             link="https://enter-dystopia.netlify.app/"
             desc="A responsive and interactive website showcasing the use of front-end design elements and animations. Built using React."
             tags={["React", "JavaScript"]}
-            img="/src/assets/dystop1a.JPG"
+            img="/src/assets/responsivewebsite.JPG"
           />
           <ProjectCard
             name="Spotify Clone"
@@ -44,11 +44,11 @@ const HomeProjects = () => {
             img="/src/assets/socialmediasite.JPG"
           />
           <ProjectCard
-            name="Interactive Website"
-            link="https://enter-dystopia.netlify.app/"
-            desc="A responsive and interactive website showcasing the use of front-end design elements and animations. Built using React."
-            tags={["React", "JavaScript"]}
-            img="/src/assets/dystop1a.JPG"
+            name="Portfolio Website (OLD)"
+            link="https://zactaylorwestermann.netlify.app/"
+            desc="Old portfolio website created using HTML, CSS and JavaScript."
+            tags={["HTML", "CSS", "JavaScript"]}
+            img="/src/assets/oldportfolio.JPG"
           />
         </ul>
         <div className="mt-12">

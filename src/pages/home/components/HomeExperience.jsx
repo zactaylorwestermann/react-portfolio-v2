@@ -21,16 +21,16 @@ const HomeExperience = () => {
             technologies={["Figma", "JavaScript", "UX/UI"]}
           />
           <ExperienceCard
+            date="Jun - Aug 2023"
+            role="Innovation Consultant - Services NSW"
+            desc="Analysed trends, conducted future horizon scanning and outlined strategies in order to benefit customers who experience financial hardship."
+            technologies={["Excel", "Microsoft Suite"]}
+          />
+          <ExperienceCard
             date="Mar - Jun 2023"
             role="Innovation Consultant - UNICEF Global"
             desc="Designed structural methods and an interactive visualisation to promote the discoverability of new knowledge."
             technologies={["Excel", "Data Mapping"]}
-          />
-          <ExperienceCard
-            date="Mar - Jun 2023"
-            role="Innovation Consultant - Services NSW"
-            desc=""
-            technologies={["Excel", "Microsoft Suite"]}
           />
           <ExperienceCard
             date="Jan - Feb 2023"
@@ -54,7 +54,7 @@ const HomeExperience = () => {
         <div className="mt-12">
           <a
             className="inline-flex items-baseline font-medium leading-tight text-p5/75 hover:text-s3 focus-visible:text-s3 group/link text-base"
-            href="/src/resume.pdf"
+            href="/src/assets/resume.pdf"
             target="_blank"
             rel="noreferrer noopener"
             aria-label="view full résumé (opens in new tab)"

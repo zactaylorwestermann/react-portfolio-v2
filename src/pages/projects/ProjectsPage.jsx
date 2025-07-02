@@ -71,6 +71,13 @@ const ProjectsPage = () => {
             github="https://github.com/zactaylorwestermann/nextjs-socialmedia-prototype"
             link="https://nextjs-socialmedia-prototype.vercel.app/"
           />
+          <TableRow
+            year="2024"
+            project="Old Portfolio"
+            tags={["JavaScript", "HTML", "CSS"]}
+            github="https://github.com/zactaylorwestermann/html-css-js-portfolio"
+            link="https://zactaylorwestermann.netlify.app/"
+          />
         </tbody>
       </table>
     </div>

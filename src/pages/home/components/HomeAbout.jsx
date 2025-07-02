@@ -14,27 +14,26 @@ const HomeAbout = () => {
       </div>
       <div>
         <p className="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-          asperiores sunt porro reprehenderit. Eius aperiam sed expedita
-          delectus debitis? Architecto, excepturi voluptate expedita cupiditate
-          amet ad? Ea dolore deleniti adipisci.
+          I'm a software engineer interested in designing and developing
+          websites that are thoughtful, usable and creative. I love everything
+          about designing for usability and wish to create memorable
+          experiences.
         </p>
         <p className="mb-4">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
-          doloremque odio ut. Ipsam perspiciatis tenetur dicta officia quod
-          debitis sequi fugit consequuntur, numquam minus deserunt, voluptatum
-          nesciunt optio nemo aspernatur?
+          I have recently graduated from the University of Technology Sydney
+          with a bachelor's degree in IT. I would love to find an opportunity to
+          allow me to develop and showcase my expertise in software design.
         </p>
         <p className="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quae,
-          id libero sit eos quos nobis suscipit deserunt nostrum et qui cumque
-          harum neque hic quibusdam dolor, quas beatae aliquam!
+          I am experienced in JavaScript, C# and Python, and am familiar with
+          frameworks such as React and Next JS. I have worked on many personal
+          and professional projects in order to build my skills in popular areas
+          such as API and AI usage.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsa
-          veniam assumenda voluptatem! Quaerat doloremque, provident omnis
-          voluptates porro, quas vel consequuntur iusto assumenda vitae ipsam
-          quo? Velit, totam quas.
+          During my downtime I love to express my creativity and learn new
+          things through hobbies such as reading and writing, baking sweets or
+          having a movie night.
         </p>
       </div>
     </section>

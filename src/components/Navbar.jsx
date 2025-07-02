@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 
-const navItems = ["Home", "Experience", "Projects"];
+const navItems = ["Home", "Projects"];
 
 const Navbar = () => {
   return (

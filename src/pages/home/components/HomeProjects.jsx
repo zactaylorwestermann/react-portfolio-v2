@@ -48,7 +48,7 @@ const HomeProjects = () => {
             link="https://zactaylorwestermann.netlify.app/"
             desc="Old portfolio website created using HTML, CSS and JavaScript."
             tags={["HTML", "CSS", "JavaScript"]}
-            img="/src/assets/oldportfolio.JPG"
+            img="oldportfolio.JPG"
           />
         </ul>
         <div className="mt-12">

@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: sans-serif;
-  src: local("roboto"), url(src/assets/fonts/roboto.ttf) format("truetype");
+  src: local("roboto"), url(/fonts/roboto.ttf) format("truetype");
 }
 
 @layer base {

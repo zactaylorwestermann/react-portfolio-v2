@@ -54,7 +54,7 @@ const HomeExperience = () => {
         <div className="mt-12">
           <a
             className="inline-flex items-baseline font-medium leading-tight text-p5/75 hover:text-s3 focus-visible:text-s3 group/link text-base"
-            href="/src/assets/resume.pdf"
+            href="/resume.pdf"
             target="_blank"
             rel="noreferrer noopener"
             aria-label="view full résumé (opens in new tab)"

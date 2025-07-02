@@ -19,14 +19,14 @@ const HomeProjects = () => {
             link="https://enter-dystopia.netlify.app/"
             desc="A responsive and interactive website showcasing the use of front-end design elements and animations. Built using React."
             tags={["React", "JavaScript"]}
-            img="/src/assets/responsivewebsite.JPG"
+            img="/img/responsivewebsite.JPG"
           />
           <ProjectCard
             name="Spotify Clone"
             link="https://musicstreaming-ndsv.onrender.com/"
             desc="A web app with a functional music player system. Users can view playlists, add new songs, message, play music, pause music and skip to the next or previous track. Built using React, TypeScript and Node js."
             tags={["React", "TypeScript", "Node.js", "Express", "MongoDB"]}
-            img="/src/assets/musicstreamingsite.JPG"
+            img="/img/musicstreamingsite.JPG"
           />
           <ProjectCard
             name="Social Media Clone"
@@ -41,14 +41,14 @@ const HomeProjects = () => {
               "Neon",
               "Prisma",
             ]}
-            img="/src/assets/socialmediasite.JPG"
+            img="/img/socialmediasite.JPG"
           />
           <ProjectCard
             name="Portfolio Website (OLD)"
             link="https://zactaylorwestermann.netlify.app/"
             desc="Old portfolio website created using HTML, CSS and JavaScript."
             tags={["HTML", "CSS", "JavaScript"]}
-            img="oldportfolio.JPG"
+            img="/img/oldportfolio.JPG"
           />
         </ul>
         <div className="mt-12">
